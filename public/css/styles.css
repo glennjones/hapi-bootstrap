@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+
+body {
+  padding:2em;
+  margin: 0;
+  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#333;
+  font-weight:300;
+  font-size: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color:#222;
+  margin:0 0 20px;
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight:300;
+}
+
+p, ul, ol, table, pre, dl {
+  margin:0 0 20px;
+}
+
+h1{
+  font-size: 1.5em;
+}
+
+h2, h3 {
+  margin-top: 3em;
+  margin-bottom: 0.8em;
+  font-size: 1.17em;
+}
+
+h1, h2, h3 {
+  line-height:1.1;
+  clear: both;  
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+
+ol{
+  list-style-type: lower-alpha;
+}
+
+ol li{
+  margin-bottom: 1em;
+}
+
+
+
+a {
+  color:#39c;
+  text-decoration:none;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
+a small {
+  font-size:11px;
+  color:#777;
+  margin-top:-0.6em;
+  display:block;
+}
+
+
+blockquote {
+  border-left:1px solid #e5e5e5;
+  margin:0;
+  padding:0 0 0 20px;
+  font-style:italic;
+}
+
+code, pre {
+  font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
+  color:#333;
+  font-size:12px;
+}
+
+pre {
+  padding:8px 15px;
+  background: #F0F0F0;  
+  border-radius:5px;
+  border:1px solid #e5e5e5;
+  overflow-x: auto;
+}
+
+table {
+  width:100%;
+  border-collapse:collapse;
+}
+
+th, td {
+  text-align:left;
+  padding:5px 10px;
+  border-bottom:1px solid #e5e5e5;
+}
+
+dt {
+  color:#444;
+  font-weight:700;
+}
+
+th {
+  color:#444;
+}
+
+img {
+  max-width:100%;
+}
+
+nav{
+  border-top: 1px solid #e7e7e7;
+  clear: both;
+  padding-top: 0.5em;
+}
+
+dl{
+  margin-left: 1.4em;
+}
+
+dd{
+  margin-left: 0;
+  margin-bottom: 1em;
+}
+
+
