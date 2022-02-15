@@ -1,7 +1,7 @@
 {
   "name": "hapi-bootstrap",
   "author": "Glenn Jones",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "A basic hapi.js bootstrap to build projects from",
   "keywords": [
     "hapi",
@@ -14,26 +14,28 @@
   },
   "main": "index",
   "scripts": {
-    "test": "make test",
-    "start": "app"
+    "dev-debug": "node --inspect-brk=9229 ./lib/app.js",
+    "dev": "nodemon",
+    "start": "node ./lib/app.js"
   },
   "dependencies": {
-    "blipp": "^2.3.0",
-    "boom": "^4.2.0",
-    "dotenv": "^2.0.0",
-    "good": "^7.0.2",
-    "good-console": "^6.3.1",
-    "good-squeeze": "^5.0.0",
-    "h2o2": "^5.4.0",
-    "handlebars": "1.3.x",
-    "hapi": "^16.1.0",
-    "hapi-swagger": "^7.7.0",
-    "hoek": "^4.1.0",
-    "inert": "^4.0.2",
-    "joi": "^10.0.1",
-    "vision": "4.1.1"
+    "@hapi/boom": "^9.1.4",
+    "@hapi/h2o2": "^9.1.0",
+    "@hapi/hapi": "^20.2.1",
+    "@hapi/hoek": "^9.2.1",
+    "@hapi/inert": "^6.0.5",
+    "@hapi/vision": "6.1.0",
+    "blipp": "^4.0.2",
+    "dotenv": "^16.0.0",
+    "handlebars": "4.7.7",
+    "hapi-swagger": "^14.2.5",
+    "joi": "^17.6.0",
+    "nunjucks": "^3.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   },
   "engines": {
-    "node": ">= 6.0"
+    "node": ">= 16.0"
   }
 }
